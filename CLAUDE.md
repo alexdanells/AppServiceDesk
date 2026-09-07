@@ -1,9 +1,9 @@
 # AppServiceDesk — Claude Code Guide
 
 ## Project Overview
-A Service Desk for managing Apprenticeships built as a single-page app for Boom Training. Learner Success Coaches (LSC) raise requests via the frontend. Managers and Admins view and action those requests via a workflow backend — similar to a lightweight JIRA.
+A Service Desk for managing Apprenticeships built as a single-page app for The Tess Group. Learner Success Coaches (LSC) raise requests via the frontend. Managers and Admins view and action those requests via a workflow backend — similar to a lightweight JIRA.
 
-**Live site:** https://alexdanells-boomtraining.github.io/AppServiceDesk/
+**Live site:** https://alexdanells.github.io/AppServiceDesk/ (GitHub Pages not yet enabled on the new repo — see Git & GitHub section)
 
 ## Stack
 - **HTML** — `index.html` (single entry point)
@@ -26,9 +26,9 @@ Open `index.html` in any browser. No build step, no dev server.
 ## Users (hardcoded, no registration)
 | Username | Password | Role    | Description |
 |----------|----------|---------|-------------|
-| LSC      | boom     | coach   | Learner Success Coach — raises requests |
-| Manager  | boom     | manager | Request Processor — actions tickets |
-| Admin    | boom     | admin   | Full visibility of all tickets |
+| LSC      | tess     | coach   | Learner Success Coach — raises requests |
+| Manager  | tess     | manager | Request Processor — actions tickets |
+| Admin    | tess     | admin   | Full visibility of all tickets |
 
 Login is a modal with button-click user selection (no typed password). Switch User and Logout buttons appear in the header when logged in.
 
@@ -131,7 +131,7 @@ Data Analyst, Data Technician, Applied AI & Automation, Multi-Channel Marketer, 
 
 ## UI / Design
 - Dark theme: bg `#191a1f`, cards `#292a32`
-- White header with Boom Training logo (`btlogo.png`)
+- White header with The Tess Group logo (`tesslogo.webp`)
 - Purple accent: `#673aff`
 - Red error/unread: `#e53935` / `#ff5454`
 - Cards use flexbox with `justify-content: center` so orphan rows are centred
@@ -181,8 +181,8 @@ Reset/Hide buttons at the bottom of the workflow manage demo data visibility.
 ---
 
 ## Git & GitHub
-- **Repo:** https://github.com/alexdanells-boomtraining/AppServiceDesk
-- **Deployed:** https://alexdanells-boomtraining.github.io/AppServiceDesk/
+- **Repo:** https://github.com/alexdanells/AppServiceDesk
+- **Deployed:** https://alexdanells.github.io/AppServiceDesk/ (enable GitHub Pages on this repo — currently returns 404)
 - `main` — always deployable
 - Branch per feature, merge to main when done
 

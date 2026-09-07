@@ -138,9 +138,9 @@ const LEARNER_STATUS_TYPES = [
 // ── Users & auth ──────────────────────────────
 
 const USERS = [
-  { username: 'LSC',     password: 'boom', displayName: 'LSC',     role: 'coach'   },
-  { username: 'Manager', password: 'boom', displayName: 'Manager', role: 'manager' },
-  { username: 'Admin',   password: 'boom', displayName: 'Admin',   role: 'admin'   },
+  { username: 'LSC',     password: 'tess', displayName: 'LSC',     role: 'coach'   },
+  { username: 'Manager', password: 'tess', displayName: 'Manager', role: 'manager' },
+  { username: 'Admin',   password: 'tess', displayName: 'Admin',   role: 'admin'   },
 ];
 
 function getCurrentUser() {

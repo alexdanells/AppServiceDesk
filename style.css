@@ -1,4 +1,4 @@
-/* AppServiceDesk — Turing College theme, Boom Training header */
+/* AppServiceDesk — dark theme, Tess Group header */
 
 :root {
   --purple:       #673aff;
@@ -48,7 +48,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ── Header (Boom Training — unchanged) ───────── */
+/* ── Header ───────── */
 
 .site-header {
   background: var(--white);
